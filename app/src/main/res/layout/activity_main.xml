@@ -18,11 +18,35 @@
         android:layout_marginBottom="10dp"
         android:text="Team A" />
     <TextView
+        android:id="@+id/teamView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
         android:layout_below="@+id/teamA"
         android:text="0" />
+    <Button
+        android:id="@+id/threePoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamView"
+        android:layout_marginBottom="10dp"
+
+        android:text="+3 Points"/>
+    <Button
+        android:id="@+id/twoPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/threePoints"
+        android:layout_marginBottom="10dp"
+        android:text="+2 Points"/>
+    <Button
+        android:id="@+id/freeThrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twoPoints"
+        android:layout_marginBottom="10dp"
+        android:text="FREE THROW"/>
 
 
 
