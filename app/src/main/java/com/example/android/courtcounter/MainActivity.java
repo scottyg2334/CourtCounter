@@ -9,6 +9,10 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Displays the given score for Team A.
      */
+    // Global Variable for Scores
+    int scoreTeamA = 0;
+
+    //End of Global Variables
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
@@ -20,15 +24,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreeForTeamA(View V) {
-        displayForTeamA(3);
+        scoreTeamA=scoreTeamA + 3;
+        displayForTeamA(scoreTeamA);
     }
 
     public void addTwoForTeamA(View V) {
-        displayForTeamA(2);
+        scoreTeamA=scoreTeamA + 2;
+        displayForTeamA(scoreTeamA);
     }
 
     public void addOneForTeamA(View V) {
-        displayForTeamA(1);
+        scoreTeamA=scoreTeamA + 1;
+        displayForTeamA(scoreTeamA);
     }
 
 }
