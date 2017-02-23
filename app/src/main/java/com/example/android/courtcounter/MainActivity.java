@@ -36,13 +36,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 // Team A
+    public void addSixForTeamA(View V) {
+        scoreTeamA=scoreTeamA + 6;
+        displayForTeamA(scoreTeamA);
+    }
+
     public void addThreeForTeamA(View V) {
         scoreTeamA=scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
     }
 
     public void addTwoForTeamA(View V) {
-        scoreTeamA=scoreTeamA + 2;
+        scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
     }
 
@@ -51,12 +56,16 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
     }
 //Team B
-public void addThreeForTeamB(View V) {
-    scoreTeamB=scoreTeamB + 3;
+public void addSixForTeamB(View V) {
+    scoreTeamB=scoreTeamB + 6;
     displayForTeamB(scoreTeamB);
 }
 
-    public void addTwoForTeamB(View V) {
+    public void addThreeForTeamB(View V) {
+        scoreTeamB=scoreTeamB + 3;
+        displayForTeamB(scoreTeamB);
+    }
+    public void addOneTwoTeamB(View V) {
         scoreTeamB=scoreTeamB + 2;
         displayForTeamB(scoreTeamB);
     }

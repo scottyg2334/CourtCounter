@@ -66,32 +66,47 @@
                 android:textSize="56sp" />
 
             <Button
-                android:id="@+id/threePoints"
+                android:id="@+id/sixPointsTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamView"
                 android:layout_marginBottom="8dp"
-                android:onClick="addThreeForTeamA"
+                android:onClick="addSixForTeamA"
+                android:background="#0000ff"
+                android:textStyle="bold"
+                android:text="+6 Points" />
 
+            <Button
+                android:id="@+id/threePointsTeamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixPoints"
+                android:layout_marginBottom="8dp"
+                android:onClick="addThreeForTeamA"
+                android:background="#0000ff"
+                android:textStyle="bold"
                 android:text="+3 Points" />
 
             <Button
-                android:id="@+id/twoPoints"
+                android:id="@+id/twoPointsTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/threePoints"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForTeamA"
+                android:background="#0000ff"
+                android:textStyle="bold"
                 android:text="+2 Points" />
-
             <Button
-                android:id="@+id/freeThrow"
+                android:id="@+id/onePointTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/twoPoints"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForTeamA"
-                android:text="FREE THROW" />
+                android:background="#0000ff"
+                android:textStyle="bold"
+                android:text="+1 Point" />
 
 
         </LinearLayout>
@@ -149,13 +164,25 @@
                 android:textSize="56sp" />
 
             <Button
-                android:id="@+id/threePointsTeamB"
+                android:id="@+id/sixPointsTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamView"
                 android:layout_marginBottom="8dp"
-                android:onClick="addThreeForTeamB"
+                android:onClick="addSixForTeamB"
+                android:background="#ff0000"
+                android:textStyle="bold"
+                android:text="+6 Points" />
 
+            <Button
+                android:id="@+id/threePointsTeamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixPoints"
+                android:layout_marginBottom="8dp"
+                android:onClick="addThreeForTeamB"
+                android:background="#ff0000"
+                android:textStyle="bold"
                 android:text="+3 Points" />
 
             <Button
@@ -164,17 +191,20 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/threePoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addTwoForTeamB"
+                android:onClick="addOneTwoTeamB"
+                android:background="#ff0000"
+                android:textStyle="bold"
                 android:text="+2 Points" />
-
             <Button
-                android:id="@+id/freeThrowTeamB"
+                android:id="@+id/onePointTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/twoPoints"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForTeamB"
-                android:text="FREE THROW" />
+                android:background="#ff0000"
+                android:textStyle="bold"
+                android:text="+1 Point" />
 
         </LinearLayout>
 
