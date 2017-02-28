@@ -12,17 +12,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="resetScore"
-        android:text="RESET"
-
-        />
+        android:text="RESET" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="17dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
 
 
         <LinearLayout
@@ -45,13 +43,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:text="Team A"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
                 android:textColor="#616161"
-
-                />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -59,9 +55,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamA"
                 android:layout_marginBottom="24dp"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
-                android:fontFamily="sans-serif-light"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -71,10 +67,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamView"
                 android:layout_marginBottom="8dp"
-                android:onClick="addSixForTeamA"
                 android:background="#0000ff"
-                android:textStyle="bold"
-                android:text="+6 Points" />
+                android:onClick="addSixForTeamA"
+                android:text="+6 Points"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/threePointsTeamA"
@@ -82,10 +78,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/sixPoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addThreeForTeamA"
                 android:background="#0000ff"
-                android:textStyle="bold"
-                android:text="+3 Points" />
+                android:onClick="addThreeForTeamA"
+                android:text="+3 Points"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/twoPointsTeamA"
@@ -93,34 +89,36 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/threePoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addTwoForTeamA"
                 android:background="#0000ff"
-                android:textStyle="bold"
-                android:text="+2 Points" />
+                android:onClick="addTwoForTeamA"
+                android:text="+2 Points"
+                android:textStyle="bold" />
+
             <Button
                 android:id="@+id/onePointTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/twoPoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneForTeamA"
                 android:background="#0000ff"
-                android:textStyle="bold"
-                android:text="+1 Point" />
+                android:onClick="addOneForTeamA"
+                android:text="+1 Point"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
         // Divider Line Betwen Views.
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
+
             <View
                 android:layout_width="1dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/darker_gray"></View>
 
         </LinearLayout>
-
 
 
         //Team B Layout
@@ -144,12 +142,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:text="Team B"
-                android:textSize="14sp"
-                android:fontFamily="sans-serif-medium"
                 android:textColor="#616161"
-                />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -157,9 +154,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamA"
                 android:layout_marginBottom="24dp"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="0"
-                android:fontFamily="sans-serif-light"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -169,10 +166,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamView"
                 android:layout_marginBottom="8dp"
-                android:onClick="addSixForTeamB"
                 android:background="#ff0000"
-                android:textStyle="bold"
-                android:text="+6 Points" />
+                android:onClick="addSixForTeamB"
+                android:text="+6 Points"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/threePointsTeamB"
@@ -180,10 +177,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/sixPoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addThreeForTeamB"
                 android:background="#ff0000"
-                android:textStyle="bold"
-                android:text="+3 Points" />
+                android:onClick="addThreeForTeamB"
+                android:text="+3 Points"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/twoPointsTeamB"
@@ -191,23 +188,23 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/threePoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneTwoTeamB"
                 android:background="#ff0000"
-                android:textStyle="bold"
-                android:text="+2 Points" />
+                android:onClick="addOneTwoTeamB"
+                android:text="+2 Points"
+                android:textStyle="bold" />
+
             <Button
                 android:id="@+id/onePointTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/twoPoints"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneForTeamB"
                 android:background="#ff0000"
-                android:textStyle="bold"
-                android:text="+1 Point" />
+                android:onClick="addOneForTeamB"
+                android:text="+1 Point"
+                android:textStyle="bold" />
 
         </LinearLayout>
-
 
 
     </LinearLayout>
